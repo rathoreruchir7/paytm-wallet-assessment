@@ -1,0 +1,14 @@
+{
+  "process_restart_replay": "passed",
+  "durable_events": "passed",
+  "sse_stream": "passed",
+  "old_process_pid": 6,
+  "new_process_pid": 41,
+  "balances_paise": [
+    9679,
+    10321
+  ],
+  "transport": "real HTTP and PostgreSQL via secure WebSocket",
+  "docker_executed": false,
+  "public_deployment": false
+}

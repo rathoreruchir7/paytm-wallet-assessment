@@ -1,0 +1,5 @@
+{"case": "concurrent_get_or_create", "requests": 50, "unique_wallets": 1, "passed": true}
+{"case": "idempotent_retry_storm", "requests": 50, "unique_transfers": 1, "debit_paise": 137, "credit_paise": 137, "different_body_status": 409, "passed": true}
+{"case": "conservation_under_contention", "requests": 100, "succeeded": 100, "declined": 0, "before_paise": 40000, "after_paise": 40000, "min_balance_paise": 9382, "receipts_reconciled": true, "passed": true}
+{"case": "concurrent_overdraft", "requests": 50, "succeeded": 1, "declined": 49, "source_balance_paise": 400, "passed": true}
+{"all_selected_probes_passed": true, "p50": 1079.05, "p99": 1799.23}
