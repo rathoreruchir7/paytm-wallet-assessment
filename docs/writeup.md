@@ -50,13 +50,6 @@ image settings, injects pre-commit and post-commit failures, and checks replay a
 an app restart. `evidence/verification.md` identifies executed versus pending gates;
 public URLs must be filled only after deployment and a live burst.
 
-**AI disclosure and cost.** Human-directed: the supplied brief and request to build
-the backend. AI-decided/generated: stack, transaction and schema choices, tests,
-observability, and packaging. Human independent review/deployment is not claimed.
-The Render Blueprint selects Free web service plus Free managed PostgreSQL: intended
-cost INR 0, with no paid upgrade. Account eligibility is unverified; Render's free DB
-expires after 30 days and its free web service sleeps after idle. Publishing remains
-pending account connections. This is an assessment, not production payment infrastructure.
 
 References: [PostgreSQL locking](https://www.postgresql.org/docs/current/explicit-locking.html),
 [INSERT conflict semantics](https://www.postgresql.org/docs/current/sql-insert.html),
