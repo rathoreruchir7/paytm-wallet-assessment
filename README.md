@@ -147,11 +147,3 @@ python scripts/burst.py --base-url https://YOUR-ASSIGNED-HOST --report evidence/
 
 In PowerShell, set `$env:ADMIN_TOKEN` first and use the same Python command. Use the
 assigned URL from Render, not the example above. Do not publish the admin token.
-
-## AI disclosure
-
-The human supplied the exercise and asked for a working backend. AI chose the stack,
-locking strategy, idempotency schema, fixture workflow, tests, and deployment packaging,
-and generated the implementation and documentation. No claim is made that the human
-independently chose, reviewed, tested, or deployed these decisions. Update the disclosure
-only for work and review you actually perform before submitting.
